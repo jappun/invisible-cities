@@ -14,6 +14,9 @@
 
 body {
     background-image: url("./img/original-resize.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     font-family: "Cedarville Cursive", cursive;
     font-weight: 300;
     font-style: normal;

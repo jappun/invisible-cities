@@ -2,7 +2,7 @@
 fetch('novel.txt').
 then((response) => response.text()).
 then((text) => {
-    const quotes = text.split('.');
+    const quotes = text.split('\n');
 
     function randomizeQuote() {
         // random quote
@@ -21,7 +21,7 @@ then((text) => {
 
         quoteElement = document.createElement('div');
         quoteElement.textContent = quote;
-        quoteElement.className = `fadeInAndOut absolute ${size} p-4 text-yellow-900 rounded-lg`;
+        quoteElement.className = `fadeInAndOut absolute ${size} p-4 text-yellow-900 rounded-lg italic`;
         quoteElement.style.transitionDuration = `${duration}ms`;
         quoteElement.style.left = `${x}px`;
         quoteElement.style.top = `${y}px`;
