@@ -8,7 +8,6 @@ then((text) => {
         // random quote
         const quote = quotes[Math.floor(Math.random() * quotes.length)];
         // random size
-        // const fontSize = Math.floor((Math.random() * (48 - 16 + 1)) + 16);
         const sizes = [
             'text-sm', 'text-base', 'text-lg', 'text-xl', 
             'text-2xl', 'text-3xl', 'text-4xl'
@@ -22,7 +21,7 @@ then((text) => {
 
         quoteElement = document.createElement('div');
         quoteElement.textContent = quote;
-        quoteElement.className = `fadeInAndOut absolute ${size} p-4 text-yellow-950 rounded-lg`;
+        quoteElement.className = `fadeInAndOut absolute ${size} p-4 text-yellow-900 rounded-lg`;
         quoteElement.style.transitionDuration = `${duration}ms`;
         quoteElement.style.left = `${x}px`;
         quoteElement.style.top = `${y}px`;
@@ -37,10 +36,3 @@ then((text) => {
     setInterval(randomizeQuote, Math.floor((Math.random() * (800-200) + 200)))
 
 });
-
-
-// random coords
-
-// random duration
-
-// fade in/out of screen

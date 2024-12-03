@@ -14,5 +14,12 @@
 
 body {
     background-image: url("./img/original-resize.png");
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 300;
+    font-style: normal;
 
+}
+
+#venice {
+  font-family: "Fredericka the Great", serif;
 }
