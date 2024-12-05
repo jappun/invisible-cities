@@ -33,6 +33,6 @@ then((text) => {
         }, 6000);
     }
 
-    setInterval(randomizeQuote, Math.floor((Math.random() * (800-200) + 200)))
+    setInterval(randomizeQuote, Math.floor((Math.random() * (1000-300) + 200)))
 
 });

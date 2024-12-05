@@ -13,7 +13,8 @@
 }
 
 body {
-    background-image: url("./img/original-resize.png");
+    /* background-image: url("./img/original-resize.png"); */
+    background-image: url("./img/bg-final.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
