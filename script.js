@@ -9,7 +9,7 @@ then((text) => {
         const quote = quotes[Math.floor(Math.random() * quotes.length)];
         // random size
         const sizes = [
-            'text-sm', 'text-base', 'text-lg', 'text-xl', 
+            'text-sm','text-base', 'text-lg', 'text-xl', 
             'text-2xl', 'text-3xl', 'text-4xl'
         ];
         const size = sizes[Math.floor(Math.random() * sizes.length)];
@@ -33,6 +33,6 @@ then((text) => {
         }, 6000);
     }
 
-    setInterval(randomizeQuote, Math.floor((Math.random() * (1000-300) + 200)))
+    setInterval(randomizeQuote, Math.floor((Math.random() * (900-200) + 200)))
 
 });
